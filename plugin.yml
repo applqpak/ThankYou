@@ -1,0 +1,13 @@
+name: ThankYou
+version: 1.0.0
+author: applqpak
+api: [1.0.0]
+main: ThankYou\Main
+commands:
+  thank:
+    description: Thank A Player!
+    usage: "/thanks <player> < reason >"
+    permission: thankyou.command.thank
+permissions:
+  thankyou.command.thank:
+    default: true
