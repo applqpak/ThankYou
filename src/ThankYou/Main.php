@@ -50,7 +50,7 @@
             
             $reason = implode(" ", $args);
             
-            $this->getServer()->broadcastMessage(TF::YELLOW . $player_name . " has been thanked by " . $display_name . " for " . $reason);
+            $this->getServer()->broadcastMessage(TF::YELLOW . $player_name . " has been thanked by " . $sender_name . " for " . $reason);
             
             $player->sendMessage(TF::GREEN . "You have been thanked by " . $sender_name . " for " . $reason);
             
